@@ -9,15 +9,8 @@ height: 1240px;
 @media only screen and (max-width: 768px) {
     .bg-main{
       background-size: cover;
-      height: 100%;
+      background-position: fixed;
+      height: 100vh;
     }
   }
 
-
-  .footer{
-    
-    background-image:url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148695092.jpg?size=626&ext=jpg&uid=R95643881&ga=GA1.1.530253296.1673866426&semt=ais");
-    background-repeat: no-repeat;
-
-
-  }
