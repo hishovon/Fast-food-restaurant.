@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza</title>
-
-
-
+    <link rel="stylesheet" href="styles/pizza.css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
@@ -16,39 +14,238 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 
+
+
 </head>
-<body>
+
+<body class="bg-pizza">
     
+<div class=" flex justify-end gap-5 pr-12 text-white font-semibold pt-20">
 
-<h1>Welcome pizza</h1>
+  <div class=" border-2 rounded p-2 border-y-violet-800 hover:bg-cyan-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">
+     <a href="index.html">Homepage</a>
+   </div>
+  <div class=" border-2 rounded p-2 border-x-rose-500 hover:bg-amber-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">
+     <a href="Burger.html">Burger</a>
+     </div>
+  <div class=" border-2 rounded p-2 border-y-emerald-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">
+     <a href="drinks.html">Drinks</a>
+     </div>
+  <div class=" border-2 rounded p-2 border-x-indigo-600 hover:bg-orange-400 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">
+    <a href="fried.chicken.html">Fried Chicken</a>
+   </div>
 
 
 
 
-                                         <!-- nav section -->
-                                         <section>
-                                            <div>
-                                                <div class="navbar-start">
-                                                  <div class="dropdown">
-                                                    <label tabindex="0" class="btn btn-ghost btn-circle text-white">
-                                                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-10" fill="none" viewBox="0 0 20 20" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                                                    </label>
-                                                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-white text-xl">
-                                                      <li><a href="index.html">Homepage</a></li>
-                                                      <li><a href="Burger.html">Burger</a></li>
-                                                      <li><a href="drinks.html">Drinks</a></li>
-                                                      <li><a href="fried.chicken.html">Chickens</a></li>
-                                                    </ul>
+
+</div>
+
+                            
+
+                                                 <!-- card section -->
+
+                                                 <section class="container mx-auto">
+
+                                                  <div class="h-96 carousel carousel-vertical rounded-box">
+                                                   
+                                                    <div class="carousel-item h-full">
+                                                      <img src="images/pizza/pizza-pepperoni-table.jpg" />
+                                                    </div> 
+                                                    <div class="carousel-item h-full">
+                                                      <img src="images/pizza/side-view-pizza-with-chicken-mushrooms-served-with-sauce-vegetables-salad-wooden-plate.jpg" />
+                                                    </div> 
+                                                    
+                                                    <div class="carousel-item h-full">
+                                                      <img src="images/pizza/baking-delicious-pizza-with-wood-fired-oven.jpg" />
+                                                    </div> 
+                                                    <div class="carousel-item h-full">
+                                                      <img src="images/pizza/front-view-delicious-cheese-pizza-consists-olives-pepper-tomatoes-dark-surface.jpg" />
+                                                    </div>
                                                   </div>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                </section>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                <main class=" pt-16">
+                                                
+                                                <section class="lg:container lg:mx-auto">
+                                                
+                                                
+                                                <div class=" lg:grid grid-cols-3    ">
+                                                
+                                                
+                                                
+                                                  <div class="card border-4 rounded border-rose-500  w-96 bg-base-100  shadow-xl mb-5">
+                                                    <figure><img src="images/pizza/card/side-view-pizza-with-chicken-mushrooms-served-with-sauce-vegetables-salad-wooden-plate.jpg" alt="Food" /></figure>
+                                                    <div class="card-body">
+                                                      <h2 class="card-title">
+                                                        Beef Burger!
+                                                        <div class="badge badge-secondary">NEW</div>
+                                                      </h2>
+                                                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                                                      <div class="rating">
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                      </div>
+                                                      <div class="card-actions justify-end">
+                                                        <div class="badge badge-outline text-teal-400">Price</div> 
+                                                        <div class="badge text-white"> 250Tk include VAT</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                                  <div class="card  border-4 rounded border-purple-700  w-96 bg-base-100 shadow-xl mb-5">
+                                                    <figure><img src="/images/pizza/card/chicken-pizza-with-bell-peppers-tomato-cheese-round-wooden-board.jpg" alt="Shoes" /></figure>
+                                                    <div class="card-body">
+                                                      <h2 class="card-title">
+                                                        Double Digger Burger!
+                                                        <div class="badge badge-secondary">NEW</div>
+                                                      </h2>
+                                                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                                                      <div class="rating">
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                      </div>
+                                                      <div class="card-actions justify-end">
+                                                        <div class="badge badge-outline text-teal-400">Price</div> 
+                                                        <div class="badge text-white"> 400Tk include VAT</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                                  <div class="card  border-4 rounded border-green-400  w-96 bg-base-100 shadow-xl mb-5">
+                                                    <figure><img src="/images/pizza/card/pizza-pizza-filled-with-tomatoes-salami-olives.jpg" alt="Shoes" /></figure>
+                                                    <div class="card-body">
+                                                      <h2 class="card-title">
+                                                        Spicy Hot Beef Burger!
+                                                        <div class="badge badge-secondary">NEW</div>
+                                                      </h2>
+                                                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                                                      <div class="rating">
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                      </div>
+                                                      <div class="card-actions justify-end">
+                                                        <div class="badge badge-outline text-teal-400">Price</div> 
+                                                        <div class="badge text-white"> 260Tk include VAT</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                                  <div class="card  border-4 rounded border-green-400  w-96 bg-base-100 shadow-xl mb-5 ">
+                                                    <figure><img src="/images/pizza/card/side-view-chicken-pizza-tray-with-salad-table.jpg" alt="Shoes" /></figure>
+                                                    <div class="card-body">
+                                                      <h2 class="card-title">
+                                                        Chicken Burger!
+                                                        <div class="badge badge-secondary">NEW</div>
+                                                      </h2>
+                                                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                                                      <div class="rating">
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                      </div>
+                                                      <div class="card-actions justify-end">
+                                                        <div class="badge badge-outline text-teal-400">Price</div> 
+                                                        <div class="badge text-white"> 280Tk include VAT</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                                  <div class="card  border-4 rounded border-green-400  w-96 bg-base-100 shadow-xl mb-5">
+                                                    <figure><img src="/images/pizza/card/side-view-chicken-pizza-with-tomatoes-bell-peppers-olives-tray.jpg" alt="Shoes" /></figure>
+                                                    <div class="card-body">
+                                                      <h2 class="card-title">
+                                                        Grill Beef Burger!
+                                                        <div class="badge badge-secondary">NEW</div>
+                                                      </h2>
+                                                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                                                      <div class="rating">
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                      </div>
+                                                      <div class="card-actions justify-end">
+                                                        <div class="badge badge-outline text-teal-400">Price</div> 
+                                                        <div class="badge text-white"> 260Tk include VAT</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                                  <div class="card  border-4 rounded border-green-400  w-96 bg-base-100 shadow-xl mb-5">
+                                                    <figure><img src="/images/pizza/card/top-view-two-italian-pizzas-with-meat-bell-peppers-olive-mushroom.jpg" alt="Shoes" /></figure>
+                                                    <div class="card-body">
+                                                      <h2 class="card-title">
+                                                        Vegetable Beef Burger!
+                                                        <div class="badge badge-secondary">NEW</div>
+                                                      </h2>
+                                                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                                                      <div class="rating">
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-gray-400" />
+                                                      </div>
+                                                      <div class="card-actions justify-end">
+                                                        <div class="badge badge-outline text-teal-400">Price</div> 
+                                                        <div class="badge text-white"> 240Tk include VAT</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
                                                 </div>
-                                               
-                                              </div>
-                                        </section>
-
-
-
-
-<p> <img src="images/front-view-chicken-pizza-with-bell-red-yellow-pepper-with-yellow-cherry-tomatoes.jpg" alt="" srcset=""></p>
+                                                
+</section>                                                
+</main>
 
 
 
