@@ -1,5 +1,5 @@
 .bg-pizza{
-    background-image:url("https://img.freepik.com/free-photo/top-view-pizza-with-red-pepper-tomato-sauce-with-copy-space_23-2148765350.jpg?w=1060&t=st=1679826738~exp=1679827338~hmac=943fe1d9d4c851e789c4dd53fb7443da3308d9b382b85c27411797ba8f456b62");
+    background-image:url("https://img.freepik.com/free-photo/top-view-delicious-mushroom-pizza-with-cheese-olives-tomatoes-dark-floor-italy-meal-dough-pizza-food_140725-101785.jpg?w=1380&t=st=1679911208~exp=1679911808~hmac=d8492d45514dec75c04b4bd493d7182497a1a4d5cf400a448e60d506bb457ddb");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -9,9 +9,15 @@
     
 @media only screen and (max-width: 768px) {
     .bg-pizza{
-      background-size: cover;
-      background-position: fixed;
-      height: 100%;
+     background-image: none;
     }
   }
     
+
+  .html button {
+
+    margin-left: 20px;
+    align-items: center;
+  }
+
+  
