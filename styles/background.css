@@ -8,9 +8,8 @@ height: 1240px;
 
 @media only screen and (max-width: 768px) {
     .bg-main{
-      background-size: cover;
-      background-position: fixed;
-      height: 100vh;
+     background-color: rgb(29, 158, 232);
+     background-position: fixed;
     }
   }
 
